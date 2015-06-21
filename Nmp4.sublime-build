@@ -1,0 +1,4 @@
+{
+ "cmd": ["nmp4host.exe", "$file"],
+ "selector":"source.nmp4"
+}

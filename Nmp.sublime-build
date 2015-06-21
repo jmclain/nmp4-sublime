@@ -1,4 +1,0 @@
-{
-	"cmd": ["nmp.exe", "$file"],
-	"selector":"source.nmp"
-}

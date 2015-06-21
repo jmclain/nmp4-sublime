@@ -4,12 +4,12 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>nmp</string>
-		<string>nmpinc</string>
+		<string>nmp4</string>
+		<string>nmp4inc</string>
 		<string>md</string>
 	</array>
 	<key>name</key>
-	<string>Nmp</string>
+	<string>Nmp4</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -37,7 +37,7 @@
 			<key>end</key>
 			<string>(\))\s+$</string>
 			<key>name</key>
-			<string>variable.language.define.nmp</string>
+			<string>variable.language.define.nmp4</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -52,15 +52,15 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.nmp</string>
+					<string>support.function.nmp4</string>
 				</dict>
 			</dict>
 			<key>comment</key>
 			<string>none</string>
 			<key>match</key>
-			<string>#\.{0,1}(push[dD]ivert|pop[dD]ivert|saveDivert)\(.*?\)$</string>
+			<string>#\.{0,1}(push[bB]uffer|pop[bB]uffer|saveBuffer)\(.*?\)$</string>
 			<key>name</key>
-			<string>support.function.nmp</string>
+			<string>support.function.nmp4</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -68,7 +68,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.nmp</string>
+					<string>keyword.other.nmp4</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -76,7 +76,7 @@
 			<key>match</key>
 			<string>#\w+?\(.*?\)$</string>
 			<key>name</key>
-			<string>keyword.other.nmp</string>
+			<string>keyword.other.nmp4</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -84,7 +84,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.source.nmp</string>
+					<string>keyword.source.nmp4</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -92,7 +92,7 @@
 			<key>match</key>
 			<string>(#\w+?)$</string>
 			<key>name</key>
-			<string>keyword.source.nmp</string>
+			<string>keyword.source.nmp4</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -100,7 +100,7 @@
 			<key>end</key>
 			<string>'</string>
 			<key>name</key>
-			<string>string.quoted.other.nmp</string>
+			<string>string.quoted.other.nmp4</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -117,7 +117,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.source.nmp</string>
+					<string>keyword.source.nmp4</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -127,11 +127,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.source.nmp</string>
+					<string>keyword.source.nmp4</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>entity.name.function.nmp</string>
+			<string>entity.name.function.nmp4</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -148,7 +148,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.source.nmp</string>
+					<string>keyword.source.nmp4</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -158,11 +158,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.source.nmp</string>
+					<string>keyword.source.nmp4</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>entity.name.function.nmp</string>
+			<string>entity.name.function.nmp4</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -175,7 +175,7 @@
 			<key>match</key>
 			<string>;{2,}.*$</string>
 			<key>name</key>
-			<string>comment.line.nmp</string>
+			<string>comment.line.nmp4</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -183,11 +183,11 @@
 			<key>end</key>
 			<string>\*#\)</string>
 			<key>name</key>
-			<string>comment.block.nmp</string>
+			<string>comment.block.nmp4</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.nmp</string>
+	<string>source.nmp4</string>
 	<key>uuid</key>
 	<string>a400b095-4742-41f3-b8d2-7039fcc6ec10</string>
 </dict>
