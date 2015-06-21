@@ -4,7 +4,7 @@ Sublime text plug-in for .Net Macro Processor (Nmp)
 
 ## Installation
 
-To install go to your packages directory and type: git clone https://github.com/jmclain/nmp-sublime.git
+To install go to your packages directory and type: git clone https://github.com/jmclain/nmp4-sublime.git
 
 To update to the latest version, use this command in the nmp-sublime directory: git pull origin master.
 
